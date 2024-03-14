@@ -1,0 +1,46 @@
+
+# Xcode
+.DS_Store
+*/.DS_Store
+*.swp
+*.xcuserstate
+
+# Derived data and archives
+DerivedData/
+ArchiveUtility/
+BuildProducts/
+
+# Swift PM
+.build/
+
+# Package.resolved is usually kept in source control
+# to ensure consistent builds across package versions
+# *.resolved
+
+# CocoaPods
+Pods/
+*.podspec.json
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Swift Package Manager
+.build/
+
+# SwiftUI Previews
+*.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Playgrounds
+timeline
+playground.xcworkspace
+
+# User data
+xcuserdata/
+

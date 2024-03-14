@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8BD4A72BA2EB8600AE22F2 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = FA8BD4A62BA2EB8600AE22F2 /* RealityKitContent */; };
+		FA8BD4A92BA2EB8600AE22F2 /* wompDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD4A82BA2EB8600AE22F2 /* wompDemoApp.swift */; };
+		FA8BD4AB2BA2EB8600AE22F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD4AA2BA2EB8600AE22F2 /* ContentView.swift */; };
+		FA8BD4AD2BA2EB8600AE22F2 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD4AC2BA2EB8600AE22F2 /* ImmersiveView.swift */; };
+		FA8BD4AF2BA2EB8800AE22F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8BD4AE2BA2EB8800AE22F2 /* Assets.xcassets */; };
+		FA8BD4B22BA2EB8800AE22F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8BD4B12BA2EB8800AE22F2 /* Preview Assets.xcassets */; };
+		FA8BD4BD2BA2EB8900AE22F2 /* wompDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD4BC2BA2EB8900AE22F2 /* wompDemoTests.swift */; };
+		FA8BD4C72BA2EBB600AE22F2 /* hot-dog.usdz in Resources */ = {isa = PBXBuildFile; fileRef = FA8BD4C62BA2EBB600AE22F2 /* hot-dog.usdz */; };
+		FA8BD4C92BA2EC4600AE22F2 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BD4C82BA2EC4600AE22F2 /* ModelView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8BD4B92BA2EB8900AE22F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8BD4992BA2EB8500AE22F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8BD4A02BA2EB8600AE22F2;
+			remoteInfo = wompDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA8BD4A12BA2EB8600AE22F2 /* wompDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wompDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8BD4A52BA2EB8600AE22F2 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		FA8BD4A82BA2EB8600AE22F2 /* wompDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wompDemoApp.swift; sourceTree = "<group>"; };
+		FA8BD4AA2BA2EB8600AE22F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA8BD4AC2BA2EB8600AE22F2 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		FA8BD4AE2BA2EB8800AE22F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA8BD4B12BA2EB8800AE22F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA8BD4B32BA2EB8800AE22F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8BD4B82BA2EB8900AE22F2 /* wompDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wompDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8BD4BC2BA2EB8900AE22F2 /* wompDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wompDemoTests.swift; sourceTree = "<group>"; };
+		FA8BD4C62BA2EBB600AE22F2 /* hot-dog.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "hot-dog.usdz"; sourceTree = "<group>"; };
+		FA8BD4C82BA2EC4600AE22F2 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8BD49E2BA2EB8600AE22F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8BD4A72BA2EB8600AE22F2 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8BD4B52BA2EB8900AE22F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8BD4982BA2EB8500AE22F2 = {
+			isa = PBXGroup;
+			children = (
+				FA8BD4A32BA2EB8600AE22F2 /* wompDemo */,
+				FA8BD4A42BA2EB8600AE22F2 /* Packages */,
+				FA8BD4BB2BA2EB8900AE22F2 /* wompDemoTests */,
+				FA8BD4A22BA2EB8600AE22F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8BD4A22BA2EB8600AE22F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD4A12BA2EB8600AE22F2 /* wompDemo.app */,
+				FA8BD4B82BA2EB8900AE22F2 /* wompDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8BD4A32BA2EB8600AE22F2 /* wompDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD4A82BA2EB8600AE22F2 /* wompDemoApp.swift */,
+				FA8BD4AA2BA2EB8600AE22F2 /* ContentView.swift */,
+				FA8BD4AC2BA2EB8600AE22F2 /* ImmersiveView.swift */,
+				FA8BD4AE2BA2EB8800AE22F2 /* Assets.xcassets */,
+				FA8BD4C62BA2EBB600AE22F2 /* hot-dog.usdz */,
+				FA8BD4B32BA2EB8800AE22F2 /* Info.plist */,
+				FA8BD4B02BA2EB8800AE22F2 /* Preview Content */,
+				FA8BD4C82BA2EC4600AE22F2 /* ModelView.swift */,
+			);
+			path = wompDemo;
+			sourceTree = "<group>";
+		};
+		FA8BD4A42BA2EB8600AE22F2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD4A52BA2EB8600AE22F2 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		FA8BD4B02BA2EB8800AE22F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD4B12BA2EB8800AE22F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA8BD4BB2BA2EB8900AE22F2 /* wompDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD4BC2BA2EB8900AE22F2 /* wompDemoTests.swift */,
+			);
+			path = wompDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8BD4A02BA2EB8600AE22F2 /* wompDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8BD4C02BA2EB8900AE22F2 /* Build configuration list for PBXNativeTarget "wompDemo" */;
+			buildPhases = (
+				FA8BD49D2BA2EB8600AE22F2 /* Sources */,
+				FA8BD49E2BA2EB8600AE22F2 /* Frameworks */,
+				FA8BD49F2BA2EB8600AE22F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wompDemo;
+			packageProductDependencies = (
+				FA8BD4A62BA2EB8600AE22F2 /* RealityKitContent */,
+			);
+			productName = wompDemo;
+			productReference = FA8BD4A12BA2EB8600AE22F2 /* wompDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8BD4B72BA2EB8900AE22F2 /* wompDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8BD4C32BA2EB8900AE22F2 /* Build configuration list for PBXNativeTarget "wompDemoTests" */;
+			buildPhases = (
+				FA8BD4B42BA2EB8900AE22F2 /* Sources */,
+				FA8BD4B52BA2EB8900AE22F2 /* Frameworks */,
+				FA8BD4B62BA2EB8900AE22F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8BD4BA2BA2EB8900AE22F2 /* PBXTargetDependency */,
+			);
+			name = wompDemoTests;
+			productName = wompDemoTests;
+			productReference = FA8BD4B82BA2EB8900AE22F2 /* wompDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8BD4992BA2EB8500AE22F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FA8BD4A02BA2EB8600AE22F2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FA8BD4B72BA2EB8900AE22F2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FA8BD4A02BA2EB8600AE22F2;
+					};
+				};
+			};
+			buildConfigurationList = FA8BD49C2BA2EB8500AE22F2 /* Build configuration list for PBXProject "wompDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8BD4982BA2EB8500AE22F2;
+			productRefGroup = FA8BD4A22BA2EB8600AE22F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8BD4A02BA2EB8600AE22F2 /* wompDemo */,
+				FA8BD4B72BA2EB8900AE22F2 /* wompDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8BD49F2BA2EB8600AE22F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8BD4B22BA2EB8800AE22F2 /* Preview Assets.xcassets in Resources */,
+				FA8BD4C72BA2EBB600AE22F2 /* hot-dog.usdz in Resources */,
+				FA8BD4AF2BA2EB8800AE22F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8BD4B62BA2EB8900AE22F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8BD49D2BA2EB8600AE22F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8BD4AB2BA2EB8600AE22F2 /* ContentView.swift in Sources */,
+				FA8BD4A92BA2EB8600AE22F2 /* wompDemoApp.swift in Sources */,
+				FA8BD4C92BA2EC4600AE22F2 /* ModelView.swift in Sources */,
+				FA8BD4AD2BA2EB8600AE22F2 /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8BD4B42BA2EB8900AE22F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8BD4BD2BA2EB8900AE22F2 /* wompDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8BD4BA2BA2EB8900AE22F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8BD4A02BA2EB8600AE22F2 /* wompDemo */;
+			targetProxy = FA8BD4B92BA2EB8900AE22F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA8BD4BE2BA2EB8900AE22F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		FA8BD4BF2BA2EB8900AE22F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		FA8BD4C12BA2EB8900AE22F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wompDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = GA978N825M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konradgnat.wompDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		FA8BD4C22BA2EB8900AE22F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wompDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = GA978N825M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konradgnat.wompDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		FA8BD4C42BA2EB8900AE22F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GA978N825M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konradgnat.wompDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wompDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wompDemo";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		FA8BD4C52BA2EB8900AE22F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GA978N825M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.konradgnat.wompDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wompDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wompDemo";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8BD49C2BA2EB8500AE22F2 /* Build configuration list for PBXProject "wompDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8BD4BE2BA2EB8900AE22F2 /* Debug */,
+				FA8BD4BF2BA2EB8900AE22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8BD4C02BA2EB8900AE22F2 /* Build configuration list for PBXNativeTarget "wompDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8BD4C12BA2EB8900AE22F2 /* Debug */,
+				FA8BD4C22BA2EB8900AE22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8BD4C32BA2EB8900AE22F2 /* Build configuration list for PBXNativeTarget "wompDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8BD4C42BA2EB8900AE22F2 /* Debug */,
+				FA8BD4C52BA2EB8900AE22F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA8BD4A62BA2EB8600AE22F2 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA8BD4992BA2EB8500AE22F2 /* Project object */;
+}
